@@ -1,0 +1,67 @@
+li {
+    list-style-type: none
+}
+
+ul {
+    padding-left: 0
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+#button {
+    background-color:blue
+}
+
+.tag {
+    display:flex;
+    
+}
+
+.accommodation {    
+    background-color: #f2f2f2
+}
+
+.accommodation-gallerry-content {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.accommodation-gallery {
+    width: 30%
+
+    
+}
+
+.popular {    
+    background-color: #F2F2F2
+}
+
+.activities {
+    display:flex;
+    flex-direction: column;
+}
+
+
+.gallery-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.activities-gallery img {
+    width: 23%;
+}
+
+.footer {
+    background-color: #f2f2f2;
+}
+
+.footer>ul {
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+}
