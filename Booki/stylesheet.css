@@ -9,51 +9,108 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items:start;
 }
 
 #button {
-    background-color:blue
+    background-color:#0065FC
 }
 
-.tag {
+.filtered {
     display:flex;
-    
 }
 
+.tags {
+    display:flex;
+    justify-content: space-around;
+    flex-grow: 1;
+  
+}
+.tag {
+    border: solid blue 1px;
+    border-radius: 25px;
+}
+
+.container-popular-accommodation {
+    display:flex;
+    justify-content:space-around;
+}
+
+.fa-solid fa-star {
+    background-color: #0065FC;
+}
 .accommodation {    
-    background-color: #f2f2f2
+    background-color: #f2f2f2;
+    width:60%
 }
 
 .accommodation-gallerry-content {
     display:flex;
     flex-wrap:wrap;
+    justify-content: space-between;
+    height: 600px;
 }
 
 .accommodation-gallery {
-    width: 30%
-
+    background-color: #FFF;
+    width: 30%;
+    height: 45%
     
 }
 
+.accommodation-gallery img{
+    width: 100%;
+    height: 43%
+}
+
 .popular {    
-    background-color: #F2F2F2
+    background-color: #F2F2F2;
+    width: 30%
+}
+
+.popular-gallery {
+    display:flex;
+    justify-content:space-around 
+}
+
+.popular-gallery img {
+    width: 40%;
+    height: 100%;
+}
+
+.description-popular {
+    display:flex;
+    flex-direction: column
+}
+
+.text-area {
+    display:flex;
+    flex-direction: column;
+    width: 60%
+
 }
 
 .activities {
     display:flex;
     flex-direction: column;
+    margin: 43px
 }
 
 
 .gallery-content {
     display: flex;
     justify-content: space-around;
+    border-radius: 20px
 }
 
 
+.activities-gallery {
+ width: 23%
+}
+
 .activities-gallery img {
-    width: 23%;
+    width: 100%;
+    height: 90%
 }
 
 .footer {
@@ -63,5 +120,5 @@ ul {
 .footer>ul {
     display: flex;
     justify-content: space-between;
-    width: 74%;
+    width: 74%
 }
