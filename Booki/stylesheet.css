@@ -373,12 +373,219 @@ padding:10px
 }
 
 /*RESPONSIVE*/
+@media screen and (max-width: 1084px) {
+    .filtered, .tag {
+        font-size: 14px
+    }
+}
 
 /*TABLETTE <992px*/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
+
+    .filtered {
+        width: 100%;
+        font-size: 17px
+    }
+    
+    .tag {
+        font-size: 17px
+    }
+
+    .container-popular-accommodation {
+        display:flex;
+        flex-direction: column
+    }
+
+    .accommodation {
+        width: 96%;
+        margin-bottom: 50px
+    }
+
+    #accommodation-title {
+        margin: 50px 0px 0px 20px
+    }
+
+    .view-more {
+        margin: 0 0 0 20px
+    }
+
+    .popular {
+        width:100%;
+        height: 315px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content:center
+    }
+
+    .title-icon {
+        justify-content: space-between;
+        width: 90%;
+        margin-bottom: 40px
+    }
+
+    .popular-gallery {
+        width: 30%;
+        height: 150px;
+        margin-bottom: 30px
+    }
+
+    .activities-gallery {
+        width: 19%
+    }
+
+    .gallery-content {
+        height: 260px
+    }
+
+    .activities-title {
+        font-size: 12px;
+        width: 60%;
+        margin: 5px 0 0 10px
+    }
+
+    .footer>ul {
+        justify-content: space-around;
+        width: 86%
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-button {
+        display: none
+    }    
+}
+
+/*MOBILE <768px*/
+
+@media screen and (max-width: 767px) {
+
+    .header {
+        flex-direction: column
+    }
+    
+    .booki-logo {
+        margin-left: auto;
+        margin-right: auto;
+        width: 23%
+    }
+
+    .accommodation-activities {
+        width: 100% 
+    }
+    .accommodation-link:hover, .activities-link:hover {
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
+        cursor: pointer;
+        transform: scale(1.1)
+    }
+
+    .title-research {
+        font-size: 23px
+    }
+
+    #button {
+        display: none
+    }
+
+    .mobile-button {
+        background-color:#0065FC;
+        border: none;
+        border-radius: 0 10px 10px 0;
+        padding:10px;
+        font-size: 18px;
+        color: white
+    }
+
+    .fa-magnifying-glass {
+        color:white
+    }
+
+    .filtered{
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .tags {
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 130%;
+        margin: 20px 0px 0px -25px
+    }
 
     .tag {
-        font-size: 14px;
+        width:30%;
+        font-size: 11px;
+        margin-bottom: 20px
+    }
+
+    .info-description {
+        font-size: 16px
+    }
+
+    .container-popular-accommodation {
+        flex-direction: column-reverse
+    }
+
+    .popular {
+        height: auto;
+        background-color: white
+    }
+
+    .popular-gallery {
+        width: 96%;
+        height: 150px
+    }
+
+    .accommodation {
+        height:auto;
+        background-color: white
+    }
+
+    .accommodation-gallerry-content {
+        height: auto
+    }
+
+    .view-more {
+        font-size:0
+    }
+
+    #accommodation-title {
+        margin: 50px 0px 25px 20px
+    }
+
+    .accommodation-gallery {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 50px
+    }
+
+    .gallery-content {
+        flex-wrap: wrap;
+        height:auto
+    }
+
+    #activities-main-title {
+        margin-right: 141px
+    }
+
+    .activities-gallery {
+        height: 190px;
+        width:100%;
+        margin-bottom: 30px
+    }
+
+    .activities-title {
+        font-size: 16px
+    }
+
+    .footer>ul {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width:80%
     }
 }
+
+
