@@ -3,7 +3,7 @@
 }
 
 .body {
-    margin: 0px 30px 0;
+    margin: 0 30px;
     position: relative
 }
 
@@ -319,8 +319,7 @@ padding:10px
     display: flex;
     justify-content: space-around;
     height: 400px;
-    border-radius: 20px;
-    margin-left: -16px
+    border-radius: 20px
 }
 
 .activities-gallery {
@@ -514,7 +513,7 @@ padding:10px
     }
 
     .body {
-        margin:auto
+        margin: 0
     }
 
     .accommodation-activities {
@@ -529,7 +528,7 @@ padding:10px
     }
 
     .research {
-        margin-left: 30px
+        margin: 0 10px
     }
 
     .title-research {
@@ -570,13 +569,14 @@ padding:10px
         flex-wrap: wrap;
         flex-direction: row;
         width: 100%;
-        margin: 20px 0px 0px -25px
+        margin-top: 20px
     }
 
     .tag {
-        width:31%;
-        font-size: 8px;
-        margin-bottom: 20px
+        width:38%;
+        font-size: 11px;
+        margin-bottom: 20px;
+        padding: 15px 10px
     }
 
     .tag .fa-solid {
@@ -589,16 +589,17 @@ padding:10px
         font-size: 13px
     }
 
+    .main {
+        margin: 0 10px
+    }
+
     .container-popular-accommodation {
-        flex-direction: column-reverse;
-        width: 90%
+        flex-direction: column-reverse
     }
 
     .popular {
         height: auto;
-        background-color: white;
-        margin-left: 30px;
-        width: 90%
+        background-color: white
     }
 
     .title-popular {
@@ -616,12 +617,15 @@ padding:10px
     }
 
     .accommodation {
-        height:auto;
+        height: auto;
+        width: 100%;
+        padding-left: 0;
         background-color: white
     }
 
     .accommodation-gallerry-content {
-        height: auto
+        height: auto;
+        width: 100%
     }
 
     .view-more {
@@ -646,13 +650,8 @@ padding:10px
     }
 
     #activities-main-title {
-        margin-right: 141px;
+        width: 40%;
         font-size: 19px
-    }
-
-    .activities {
-        width: 80%;
-        margin-left: 40px
     }
 
     .activities-gallery {
