@@ -6,6 +6,7 @@
     <title> Booki, une plateforme de réservation de vacances </title>
     <meta name="description"
         content="un site Internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/aa250c7877.js" crossorigin="anonymous"></script>
     <link href="stylesheet.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,14 +25,14 @@
     <article class="research">
         <h1 class="title-research">Trouvez votre hébergement pour des vacances de rêve</h1>
         <p class="info-research">En plein centre-ville ou en pleine nature</p>
-        <div class="search-bar">
-            <div class="contain-icon">
+        <form id="formular" action="*" method="*">
+            <div class="search-bar">
                 <i class="fa-solid fa-location-dot"></i>
-                <input type="text" placeholder="Marseille, France" />
+                <input id="input-search" type="text" name="value-research" aria-label="Rechercher" placeholder="Marseille, France" />
                 <button id="button">Rechercher</button>
                 <button class="mobile-button"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
-        </div>
+        </form>
         <ul>
             <li class="filtered">Filtres
                 <ul class="tags">
