@@ -1,4 +1,4 @@
-*{
+* {
     font-family: 'Raleway', sans-serif
 }
 
@@ -18,11 +18,13 @@
     width: 25%
 }
 
-.accommodation-link, .activities-link {
+.accommodation-link,
+.activities-link {
     padding: 15px
 }
 
-.accommodation-link:hover, .activities-link:hover {
+.accommodation-link:hover,
+.activities-link:hover {
     border-top: 2px solid #0065FC;
     color: #0065FC;
     cursor: pointer;
@@ -41,15 +43,15 @@ a {
 
 .info-research {
     font-size: 16px
-
 }
 
 #formular {
-    width:auto
+    width: auto
 }
+
 .search-bar {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     width: 30%;
     border-color: #F2F2F2;
 }
@@ -61,8 +63,8 @@ a {
 .fa-location-dot {
     padding: 10px 15px;
     color: black;
-    background-color: #F2F2F2; 
-    border-radius: 10px 0 0 10px 
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px
 }
 
 li {
@@ -76,13 +78,12 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items:start
+    align-items: start
 }
 
 input {
     padding-right: 75px;
     border: 2px solid #F2F2F2
-    
 }
 
 input::placeholder {
@@ -94,16 +95,16 @@ input::placeholder {
 }
 
 #button {
-    background-color:#0065FC;
+    background-color: #0065FC;
     border: none;
     border-radius: 0 10px 10px 0;
-    padding:10px;
+    padding: 10px;
     font-size: 18px;
     color: white
 }
 
 .filtered {
-    display:flex;
+    display: flex;
     align-items: center;
     width: 70%;
     font-size: 18px;
@@ -111,7 +112,7 @@ input::placeholder {
 }
 
 .tags {
-    display:flex;
+    display: flex;
     justify-content: space-around;
     flex-grow: 1
 }
@@ -133,25 +134,23 @@ input::placeholder {
     padding-right: 10px
 }
 
-
 .info-icon {
-    display:flex;
+    display: flex;
     border: solid blue 1px
 }
 
-
 .container-popular-accommodation {
-    display:flex;
-    justify-content:space-between
+    display: flex;
+    justify-content: space-between
 }
 
 .fa-solid fa-star {
     background-color: #0065FC
 }
 
-.accommodation {    
+.accommodation {
     background-color: #f2f2f2;
-    width:65%;
+    width: 65%;
     height: 670px;
     padding-left: 30px;
     border-radius: 20px
@@ -159,8 +158,8 @@ input::placeholder {
 
 .accommodation-gallerry-content {
     width: 96%;
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-evenly;
     height: 520px
@@ -171,14 +170,14 @@ input::placeholder {
     width: 31%;
     height: 40%;
     border-radius: 20px;
-    box-shadow:lightgrey 2px 4px 20px  
+    box-shadow: lightgrey 2px 4px 20px
 }
 
 .accommodation-gallery img {
     width: 96%;
     height: 55%;
     border-radius: 20px 20px 0 0;
-    padding:  4px;
+    padding: 4px;
     object-fit: cover
 }
 
@@ -186,6 +185,7 @@ input::placeholder {
     font-size: 22px;
     margin: 50px 0px 0px 0px
 }
+
 .text-gallery {
     margin-left: 5px
 }
@@ -205,21 +205,19 @@ input::placeholder {
 }
 
 .star-gray {
-    color:  #f2f2f2
-
+    color: #f2f2f2
 }
 
 .view-more {
     font-weight: bold
-
 }
 
-.popular {    
+.popular {
     background-color: #F2F2F2;
-    display:flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     width: 30%;
     border-radius: 20px
 }
@@ -232,6 +230,7 @@ input::placeholder {
     font-size: 22px;
     margin-bottom: 0px
 }
+
 .text-area h3 {
     font-size: 16px;
     margin: 9px
@@ -245,11 +244,11 @@ input::placeholder {
 .stars {
     margin: 9px
 }
-.icon-description {
-    display:flex;
-    justify-content: flex-start;
-    align-items:center
 
+.icon-description {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
 }
 
 .info-icon {
@@ -258,34 +257,30 @@ input::placeholder {
     padding: 5px 10px
 }
 
-
 .info-description {
-padding:10px
+    padding: 10px
 }
 
 .title-icon {
     display: flex;
     align-items: baseline;
     justify-content: space-around;
-    width:100%
+    width: 100%
 }
-
-
 
 .fa-chart-line {
     display: flex
 }
 
 .popular-gallery {
-    display:flex;
-    justify-content:space-around;
+    display: flex;
+    justify-content: space-around;
     background-color: #FFF;
     width: 82%;
     height: 20%;
-    border-radius: 20px; 
+    border-radius: 20px;
     box-shadow: lightgrey 2px 4px 12px;
     padding: 4px
-    
 }
 
 .popular-gallery img {
@@ -297,23 +292,20 @@ padding:10px
 }
 
 .description-popular {
-    display:flex;
+    display: flex;
     flex-direction: column
 }
 
 .text-area {
-    display:flex;
+    display: flex;
     flex-direction: column
-    
 }
 
-
 .activities {
-    display:flex;
+    display: flex;
     flex-direction: column;
     margin: 20px 0 40px 0
 }
-
 
 .gallery-content {
     display: flex;
@@ -323,9 +315,9 @@ padding:10px
 }
 
 .activities-gallery {
- width: 23%;
- border-radius: 20px;
- box-shadow: lightgrey 2px 4px 12px;
+    width: 23%;
+    border-radius: 20px;
+    box-shadow: lightgrey 2px 4px 12px;
 }
 
 .activities-gallery img {
@@ -340,7 +332,8 @@ padding:10px
 }
 
 .activities-title {
-    font-size: 16px
+    font-size: 16px;
+    margin-left: 15px
 }
 
 .footer {
@@ -361,7 +354,7 @@ padding:10px
 }
 
 .list-footer li {
-    padding:5px
+    padding: 5px
 }
 
 .footer>ul {
@@ -371,23 +364,41 @@ padding:10px
 }
 
 /*RESPONSIVE*/
+@media screen and (min-width: 1400px) {
+    .body {
+        width: 1400px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
 @media screen and (max-width: 1084px) {
-    .filtered, .tag {
-        font-size: 14px
+    .filtered {
+        flex-wrap: wrap;
     }
 }
 
 /*TABLETTE <992px*/
-
 @media screen and (max-width: 991px) {
 
     .filtered {
         width: 100%;
         font-size: 17px
     }
-    
+
     .tag {
-        font-size: 17px
+        font-size: 17px;
+        padding: 9px
+    }
+
+    .info-icon {
+        border: solid #f2f2f2;
+        font-size: 10px
+    }
+
+    .tag .fa-solid {
+        padding-right: 10px;
+        font-size: 22px
     }
 
     .stars {
@@ -396,26 +407,39 @@ padding:10px
     }
 
     .container-popular-accommodation {
-        display:flex;
+        display: flex;
         flex-direction: column
     }
 
     .accommodation {
         width: 96%;
         margin-bottom: 50px;
-        height:520px
+        height: 520px
     }
 
     .accommodation-gallerry-content {
-        height:410px
+        height: 410px
     }
 
     .accommodation-gallery {
-        height: 40%
+        height: 42%
     }
 
     .accommodation-gallery img {
-        height: 45%
+        height: 59%
+    }
+
+    .accommodation-gallery h3 {
+        font-size: 16px;
+        margin: 0
+    }
+
+    .accommodation-gallery p {
+        margin: 0
+    }
+
+    .text-gallery {
+        padding-left: 10px
     }
 
     .accommodation-gallery .fa-star {
@@ -431,11 +455,11 @@ padding:10px
     }
 
     .popular {
-        width:100%;
+        width: 100%;
         height: 230px;
         flex-direction: row;
         flex-wrap: wrap;
-        align-content:center
+        align-content: center
     }
 
     .title-icon {
@@ -448,16 +472,21 @@ padding:10px
         width: 30%;
         height: 125px;
         margin-bottom: 30px;
-        padding:0px
+        padding: 0px
+    }
+
+    .text-area h3 {
+        font-size: 14px;
+        width: 70%
     }
 
     .text-area p {
-        font-size:13px
+        font-size: 13px
     }
 
     .popular-gallery img {
         width: 33%;
-        height:94%
+        height: 94%
     }
 
     .activities-gallery {
@@ -465,7 +494,7 @@ padding:10px
     }
 
     .activities-gallery img {
-        height:83%
+        height: 83%
     }
 
     .gallery-content {
@@ -474,38 +503,30 @@ padding:10px
 
     .activities-title {
         font-size: 12px;
-        width: 70%;
-        margin: 0 0 0 10px
+        width: 71%;
+        margin: 0 15px
     }
 
     .footer>ul {
         justify-content: space-around;
         width: 86%
     }
-    
-}
 
-@media screen and (max-width: 774px) {
-    .filtered, .tag {
-        font-size: 14px
-    }
 }
 
 @media screen and (min-width: 768px) {
     .mobile-button {
         display: none
-    }    
+    }
 }
 
-
 /*MOBILE <768px*/
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.5px) {
 
     .header {
         flex-direction: column
     }
-    
+
     .booki-logo {
         margin-left: auto;
         margin-right: auto;
@@ -517,14 +538,23 @@ padding:10px
     }
 
     .accommodation-activities {
-        width: 100% 
+        width: 100%;
+        text-align: center
     }
-    .accommodation-link:hover, .activities-link:hover {
+
+    .accommodation-link,
+    .activities-link {
+        width: 50%;
+        border-bottom: solid 2px #F2F2F2
+    }
+
+    .accommodation-link:hover,
+    .activities-link:hover {
         border-top: none;
         border-bottom: 2px solid #0065FC;
         color: #0065FC;
         cursor: pointer;
-        transform: scale(1.1)
+        transform: scale(1)
     }
 
     .research {
@@ -539,8 +569,12 @@ padding:10px
         font-size: 13px
     }
 
+    .search-bar {
+        width: 100%
+    }
+
     input {
-        padding-right: 40px
+        width: 100%
     }
 
     #button {
@@ -548,19 +582,19 @@ padding:10px
     }
 
     .mobile-button {
-        background-color:#0065FC;
+        background-color: #0065FC;
         border: none;
         border-radius: 0 10px 10px 0;
-        padding:10px;
+        padding: 10px;
         font-size: 18px;
         color: white
     }
 
     .fa-magnifying-glass {
-        color:white
+        color: white
     }
 
-    .filtered{
+    .filtered {
         flex-direction: column;
         align-items: flex-start
     }
@@ -568,22 +602,22 @@ padding:10px
     .tags {
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: space-between;
         width: 100%;
         margin-top: 20px
     }
 
     .tag {
-        width:38%;
+        width: 41%;
         font-size: 11px;
         margin-bottom: 20px;
         padding: 15px 10px
     }
 
     .tag .fa-solid {
-        padding-right: 3px
-
+        padding-right: 3px;
+        font-size: 20px
     }
-    
 
     .info-description {
         font-size: 13px
@@ -607,13 +641,17 @@ padding:10px
     }
 
     .title-icon {
-        width:100%;
+        width: 100%;
         margin-bottom: 30px
     }
 
     .popular-gallery {
         width: 100%;
         height: 150px
+    }
+
+    .popular-gallery img {
+        width: 43%
     }
 
     .accommodation {
@@ -629,12 +667,11 @@ padding:10px
     }
 
     .view-more {
-        font-size:0
+        font-size: 0
     }
 
-   
     #accommodation-title {
-        margin: 50px 0px 25px 0px;
+        margin: 50px 0 25px 0;
         font-size: 19px
     }
 
@@ -644,9 +681,14 @@ padding:10px
         margin-bottom: 50px
     }
 
+    .accommodation-gallery img {
+        width: 97%;
+        height: 54%
+    }
+
     .gallery-content {
         flex-wrap: wrap;
-        height:auto
+        height: auto
     }
 
     #activities-main-title {
@@ -656,13 +698,13 @@ padding:10px
 
     .activities-gallery {
         height: 190px;
-        width:100%;
+        width: 100%;
         margin-bottom: 30px
     }
 
     .activities-title {
         font-size: 16px;
-        width:100%
+        width: 100%
     }
 
     .footer {
@@ -670,10 +712,7 @@ padding:10px
     }
 
     .footer>ul {
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        width:74%
+        flex-direction: column;
+        justify-content: flex-start
     }
 }
-
-
